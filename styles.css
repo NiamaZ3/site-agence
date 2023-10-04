@@ -1,5 +1,11 @@
+       *{
+        font-family: 'Raleway', sans-serif;
+       }
+       
+       
        /* Réinitialisation des styles par défaut */
-       body, h1, h2, ul, li, p, form {
+       body, h1, h2, ul, li, p, form 
+       {
         margin: 0;
         padding: 0;
     }
@@ -9,6 +15,10 @@
         font-family: Arial, sans-serif;
         background-color: #f0f0f0;
     }
+    h1 a {
+        text-decoration: none; 
+        color: azure;
+    }
     
     .container {
         max-width: 1200px;
@@ -17,7 +27,7 @@
     }
     
     header {
-        background-color: #333;
+        background-color: #e41dd0;
         color: #fff;
         padding: 20px 0;
         text-align: center;
@@ -65,7 +75,7 @@
     .btn {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #333;
+        background-color:#e41dd0;
         color: #fff;
         text-decoration: none;
         border-radius: 5px;
@@ -102,19 +112,20 @@
     }
     
     form button {
-        background-color: #333;
+        background-color: #e41dd0;
         color: #fff;
         padding: 10px;
         border: none;
         cursor: pointer;
     }
     
+    
     /* Styles de pied de page */
     footer {
-        background-color: #333;
+        background-color: #e41dd0;
         color: #fff;
         text-align: center;
-        padding: 10px 0;
+        margin-top: 120px;
     }
     
     /* Styles responsives */
